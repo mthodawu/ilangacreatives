@@ -28,7 +28,7 @@ interface ServiceCardProps {
 const ServiceCard = ({
   title = "Basic Package",
   description = "Perfect for small projects and landing pages",
-  price = "$999",
+  price = "R1500",
   features = [
     { name: "Custom React Development", included: true },
     { name: "Responsive Design", included: true },

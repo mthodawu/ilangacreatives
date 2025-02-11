@@ -11,9 +11,9 @@ interface HeroSectionProps {
 }
 
 const HeroSection = ({
-  title = "Professional React Development Services",
+  title = "Professional Web Development Services",
   subtitle = "Building modern, performant web applications with cutting-edge technology",
-  services = ["React Development", "Static Sites", "Landing Pages"],
+  services = ["Custom Web Development", "Static Sites", "Landing Pages"],
   onGetStarted = () => console.log("Get Started clicked"),
 }: HeroSectionProps) => {
   return (
@@ -36,7 +36,6 @@ const HeroSection = ({
 };`.repeat(10)}
         </motion.div>
       </div>
-
       {/* Main content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
         <motion.div
@@ -72,7 +71,7 @@ const HeroSection = ({
             <Button
               size="lg"
               onClick={onGetStarted}
-              className="text-lg px-8 py-6"
+              className="text-lg px-8 py-6 bg-gradient-to-r from-[#b5743f]"
             >
               Get Started
               <ArrowRight className="ml-2 w-5 h-5" />

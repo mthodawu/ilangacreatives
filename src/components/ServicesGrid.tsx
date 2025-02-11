@@ -18,41 +18,122 @@ interface ServicesGridProps {
 const ServicesGrid = ({
   services = [
     {
-      title: "Basic Package",
-      description: "Perfect for small projects and landing pages",
-      price: "$999",
+      title: "Single-Page Website Package",
+      description:
+        "Perfect for businesses that want a modern, straightforward web presence",
+      price: "R1499",
       features: [
-        { name: "Custom React Development", included: true },
-        { name: "Responsive Design", included: true },
-        { name: "Basic SEO Setup", included: true },
-        { name: "Performance Optimization", included: false },
-        { name: "24/7 Support", included: false },
+        {
+          name: "One-Page Website Design",
+          description:
+            "All your important information on a single, scrollable page - perfect for modern businesses",
+          included: true,
+        },
+        {
+          name: "Custom-Built for Your Business",
+          description:
+            "Tailored sections that showcase your services, about info, and contact details - all on one page",
+          included: true,
+        },
+        {
+          name: "Works Perfectly on All Devices",
+          description:
+            "Your single-page website adapts beautifully to phones, tablets, and computers",
+          included: true,
+        },
+        {
+          name: "Help Customers Find You Online",
+          description:
+            "Basic setup to improve your visibility in Google searches",
+          included: true,
+        },
+        {
+          name: "Speed & Performance Package",
+          description:
+            "Extra optimizations to make your website lightning-fast",
+          included: false,
+        },
       ],
       isPopular: false,
     },
     {
       title: "Pro Package",
       description: "Ideal for medium-sized web applications",
-      price: "$2,499",
+      price: "R3,499",
       features: [
-        { name: "Custom React Development", included: true },
-        { name: "Responsive Design", included: true },
-        { name: "Advanced SEO Setup", included: true },
-        { name: "Performance Optimization", included: true },
-        { name: "24/7 Support", included: false },
+        {
+          name: "Full Multi-Page Website",
+          description:
+            "Separate pages for your products, services, about us, and more - organized just how you want",
+          included: true,
+        },
+        {
+          name: "Built-in Blog Platform",
+          description:
+            "Share updates, articles, and news to keep your customers engaged and boost your online presence",
+          included: true,
+        },
+        // {
+        //   name: "Premium Search Engine Features",
+        //   description: "Advanced setup to rank higher in Google searches and attract more customers",
+        //   included: true
+        // },
+        {
+          name: "Speed & Performance Package",
+          description:
+            "Your website loads instantly and runs smoothly, even with multiple pages and features",
+          included: true,
+        },
+        {
+          name: "Mobile-Perfect Design",
+          description:
+            "Your website looks and works beautifully on all devices - from phones to desktop computers",
+          included: true,
+        },
       ],
       isPopular: true,
     },
     {
       title: "Enterprise Package",
       description: "Full-scale web applications and platforms",
-      price: "$4,999",
+      price: ">R4,999",
       features: [
-        { name: "Custom React Development", included: true },
-        { name: "Responsive Design", included: true },
-        { name: "Advanced SEO Setup", included: true },
-        { name: "Performance Optimization", included: true },
-        { name: "24/7 Support", included: true },
+        {
+          name: "Custom Business Platform",
+          description:
+            "A complete online system built specifically for your business operations - not just a website",
+          included: true,
+        },
+        {
+          name: "Advanced Business Features",
+          description:
+            "Customer accounts, online payments, booking systems, or any other features your business needs",
+          included: true,
+        },
+        {
+          name: "Data Management & Reporting",
+          description:
+            "Track your business data, generate reports, and manage customer information all in one place",
+          included: true,
+        },
+        {
+          name: "Maximum Performance & Security",
+          description:
+            "Enterprise-grade speed and security to handle your business operations smoothly",
+          included: true,
+        },
+        {
+          name: "24/7 Priority Support",
+          description:
+            "Round-the-clock technical assistance to keep your business running without interruption",
+          included: true,
+        },
+        {
+          name: "Training & Documentation",
+          description:
+            "Full training for your team and detailed guides to manage your new business platform",
+          included: true,
+        },
       ],
       isPopular: false,
     },
