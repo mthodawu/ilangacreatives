@@ -71,7 +71,7 @@ const HeroSection = ({
             <Button
               size="lg"
               onClick={onGetStarted}
-              className="text-lg px-8 py-6 bg-gradient-to-r from-[#b5743f]"
+              className="text-lg px-8 py-6 from-orange-500 via-white via-[38%]"
             >
               Get Started
               <ArrowRight className="ml-2 w-5 h-5" />
