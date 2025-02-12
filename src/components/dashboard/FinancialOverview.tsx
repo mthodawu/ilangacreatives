@@ -14,9 +14,9 @@ interface FinancialOverviewProps {
 
 const FinancialOverview = ({
   metrics = {
-    monthlyRevenue: 15000,
-    outstandingPayments: 5000,
-    projectProfitability: 68,
+    monthlyRevenue: 0,
+    outstandingPayments: 0,
+    projectProfitability: 0,
   },
 }: FinancialOverviewProps) => {
   return (
@@ -28,10 +28,10 @@ const FinancialOverview = ({
         </CardHeader>
         <CardContent>
           <div className="text-2xl font-bold">
-            ${metrics.monthlyRevenue.toLocaleString()}
+            R{metrics.monthlyRevenue.toLocaleString()}
           </div>
           <p className="text-xs text-muted-foreground">
-            +20.1% from last month
+            {/* +20.1% from last month */}N/a
           </p>
         </CardContent>
       </Card>
@@ -45,7 +45,7 @@ const FinancialOverview = ({
         </CardHeader>
         <CardContent>
           <div className="text-2xl font-bold">
-            ${metrics.outstandingPayments.toLocaleString()}
+            R{metrics.outstandingPayments.toLocaleString()}
           </div>
           <p className="text-xs text-muted-foreground">3 invoices pending</p>
         </CardContent>

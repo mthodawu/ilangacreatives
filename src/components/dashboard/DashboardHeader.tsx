@@ -30,7 +30,7 @@ const DashboardHeader = () => {
               >
                 <Avatar>
                   <AvatarImage src="https://api.dicebear.com/7.x/avataaars/svg?seed=John" />
-                  <AvatarFallback>JD</AvatarFallback>
+                  <AvatarFallback>MS</AvatarFallback>
                 </Avatar>
               </Button>
             </DropdownMenuTrigger>
