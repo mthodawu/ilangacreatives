@@ -6,7 +6,7 @@ import AuthForm from "./components/auth/AuthForm";
 import DashboardLayout from "./components/dashboard/DashboardLayout";
 import DashboardHome from "./pages/dashboard/DashboardHome";
 import routes from "tempo-routes";
-import ClientView from './pages/dashboard/clientView';
+import ClientView from './pages/dashboard/ClientView';
 import CalendarView from './pages/dashboard/CalendarView';
 import DocumentsView from './pages/dashboard/DocumentsView';
 import MessagesView from './pages/dashboard/MessagesView';
